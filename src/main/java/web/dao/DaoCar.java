@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public class DaoCar implements Dao {
     @Override
-    public List<Car> getCountCar(int count) {
+    public List<Car> getCountCars(int count) {
         List<Car> cars = new ArrayList<>();
         cars.add(new Car("White", "V6", "Honda"));
         cars.add(new Car("Black", "V12", "Mercedes-Benz"));
